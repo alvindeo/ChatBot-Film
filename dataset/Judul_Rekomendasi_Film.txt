@@ -1,0 +1,8 @@
+Judul: Rekomendasi Film
+Isi:
+- Rekomendasikan film aksi terbaik! -> Film aksi terbaik antara lain John Wick, Mad Max: Fury Road, dan The Dark Knight.
+- Film romantis apa yang bagus? -> Film romantis populer antara lain The Notebook, La La Land, dan Me Before You.
+- Film apa yang cocok untuk keluarga? -> Film yang cocok untuk keluarga antara lain Finding Nemo, Toy Story, dan Encanto.
+- Film komedi terbaik sepanjang masa? -> Film komedi terbaik antara lain Home Alone, The Hangover, dan Mr. Bean’s Holiday.
+- Film fiksi ilmiah terbaik? -> Film sci-fi terbaik antara lain Interstellar, Inception, dan The Matrix.
+- Film animasi terbaik? -> Film animasi terbaik antara lain Up, Coco, dan Spider-Man: Into the Spider-Verse.

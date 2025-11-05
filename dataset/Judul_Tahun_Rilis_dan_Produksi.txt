@@ -1,0 +1,10 @@
+Judul: Tahun Rilis dan Produksi
+Isi:
+- Kapan film Titanic dirilis? -> Film Titanic dirilis pada tahun 1997.
+- Kapan film Avatar dirilis? -> Film Avatar pertama dirilis tahun 2009.
+- Kapan film Oppenheimer dirilis? -> Film Oppenheimer dirilis pada tahun 2023.
+- Kapan film Inception dirilis? -> Film Inception dirilis pada tahun 2010.
+- Film apa yang paling laris sepanjang masa? -> Film Avatar (2009) adalah salah satu film terlaris sepanjang masa.
+- Film apa yang paling banyak menghasilkan uang? -> Film Avatar (2009) dan Avengers: Endgame (2019) termasuk film dengan pendapatan tertinggi sepanjang masa.
+- Berapa lama durasi film Titanic? -> Durasi film Titanic sekitar 3 jam 15 menit.
+- Siapa produser film Oppenheimer? -> Produser film Oppenheimer adalah Emma Thomas, Charles Roven, dan Christopher Nolan.

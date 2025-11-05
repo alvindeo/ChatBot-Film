@@ -1,0 +1,8 @@
+Judul: Genre Film
+Isi:
+- Apa itu genre film? -> Genre film adalah kategori atau jenis film yang dikelompokkan berdasarkan tema, gaya, atau suasana tertentu.
+- Sebutkan beberapa genre film! -> Genre film antara lain aksi, drama, komedi, horor, romantis, fiksi ilmiah, dokumenter, dan animasi.
+- Genre film apa yang paling populer? -> Genre film yang paling populer umumnya adalah aksi dan petualangan karena banyak adegan menegangkan dan efek visual menarik.
+- Apa bedanya film horor dan thriller? -> Film horor berfokus pada ketakutan dan supranatural, sedangkan thriller menekankan ketegangan dan misteri.
+- Apa itu genre fiksi ilmiah? -> Genre fiksi ilmiah atau sci-fi menampilkan cerita berdasarkan teknologi canggih, luar angkasa, atau konsep ilmiah masa depan.
+- Genre komedi seperti apa? -> Film komedi menampilkan adegan dan dialog lucu untuk menghibur penonton.

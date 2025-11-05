@@ -1,0 +1,10 @@
+Judul: Sutradara
+Isi:
+- Siapa sutradara terkenal di dunia? -> Beberapa sutradara terkenal antara lain Christopher Nolan, Steven Spielberg, Quentin Tarantino, dan James Cameron.
+- Siapa sutradara film Titanic? -> Film Titanic disutradarai oleh James Cameron.
+- Siapa sutradara film Inception? -> Sutradara film Inception adalah Christopher Nolan.
+- Film apa yang disutradarai oleh Quentin Tarantino? -> Quentin Tarantino menyutradarai film seperti Pulp Fiction, Kill Bill, dan Django Unchained.
+- Siapa sutradara film Avatar? -> Film Avatar disutradarai oleh James Cameron.
+- Siapa sutradara film Interstellar? -> Film Interstellar disutradarai oleh Christopher Nolan.
+- Siapa sutradara film Jurassic Park? -> Film Jurassic Park disutradarai oleh Steven Spielberg.
+- Siapa sutradara film Oppenheimer? -> Film Oppenheimer disutradarai oleh Christopher Nolan.

@@ -1,0 +1,6 @@
+Judul: Fakta Unik Film
+Isi:
+- Film apa yang memiliki durasi terpanjang? -> Film terpanjang yang pernah dibuat adalah "Logistics" dengan durasi lebih dari 35 hari.
+- Film apa yang paling pendek di dunia? -> Film pendek "Fresh Guacamole" berdurasi hanya 100 detik.
+- Siapa aktor dengan bayaran tertinggi di dunia? -> Aktor dengan bayaran tertinggi saat ini antara lain Dwayne Johnson dan Tom Cruise.
+- Film apa yang menggunakan efek visual terbaik? -> Film dengan efek visual terbaik antara lain Avatar, Inception, dan Avengers: Endgame.
