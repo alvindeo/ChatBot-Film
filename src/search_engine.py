@@ -65,10 +65,11 @@ class VSMIR:
         self.vectorizer = TfidfVectorizer()
         self.doc_vectors = self.vectorizer.fit_transform(docs_questions)
 
-    def rank(self, query, top_k=1):
+    def rank(self, query, top_k=3):
         q_vec = self.vectorizer.transform([query])
         scores = cosine_similarity(q_vec, self.doc_vectors).flatten()
-        top_indices = [scores.argmax()]
+        # Ambil top_k indices dengan score tertinggi (descending order)
+        top_indices = scores.argsort()[-top_k:][::-1]
         return [(i, scores[i]) for i in top_indices if scores[i] > 0]
 
 
@@ -99,16 +100,35 @@ class RAGChatbot:
         self.file_names = file_names
         self.engine = SearchEngine(documents, questions)
 
+    def get_best_answer(self, query, top_k=3):
+        """Mengembalikan jawaban dengan score tertinggi"""
+        results = self.engine.search(query, model='vsm', k=top_k)
+        if not results:
+            return "Maaf, tidak ada informasi yang sesuai."
+        
+        # Ambil hasil dengan score tertinggi (index 0 karena sudah terurut descending)
+        doc_id, score = results[0]
+        
+        # Validasi score threshold
+        if score < 0.8:
+            return "### ⚠️ Pencarian anda kurang tepat\n\nSilakan coba dengan kata kunci yang lebih spesifik atau relevan dengan topik film."
+        
+        answer = self.documents[doc_id]
+        file_name = self.file_names[doc_id]
+        
+        return f"### 🏆 Jawaban Terbaik (Score: {score:.2f})\n\n📄 **Sumber: {file_name}**\n\n{answer}"
+    
     def generate_answer(self, query, top_k=3):
+        """Mengembalikan semua top-k hasil pencarian"""
         results = self.engine.search(query, model='vsm', k=top_k)
         if not results:
             return "Maaf, tidak ada informasi yang sesuai."
         answers = []
-        for doc_id, score in results:
-            snippet = self.documents[doc_id][:150]
+        for idx, (doc_id, score) in enumerate(results, 1):
+            snippet = self.documents[doc_id][:200]
             file_name = self.file_names[doc_id]
-            answers.append(f"📄 **{file_name}** — (score: {score:.2f})\n{snippet}...")
-        return "### Hasil Pencarian Teratas:\n" + "\n\n".join(answers)
+            answers.append(f"**{idx}. {file_name}** — (score: {score:.2f})\n{snippet}...")
+        return "### 📊 Top 3 Hasil Pencarian:\n\n" + "\n\n".join(answers)
 
 
 # --- Membaca dataset dari folder /dataset ---
@@ -132,17 +152,27 @@ chatbot = RAGChatbot(questions, answers, file_names)
 
 # --- Gradio UI ---
 def chatbot_response(user_input):
-    return chatbot.generate_answer(user_input)
+    best = chatbot.get_best_answer(user_input)
+    all_results = chatbot.generate_answer(user_input)
+    return best, all_results
 
 with gr.Blocks(title="Chatbot Film") as demo:
     gr.Markdown("# 🎬 Chatbot Tentang Film\nTanyakan apa saja seputar film, genre, sutradara, dan aktor.")
+    
     with gr.Row():
-        question_input = gr.Textbox(label="Pertanyaan", placeholder="Contoh: Siapa sutradara film Titanic?")
-        ask_button = gr.Button("Tanyakan")
-    answer_output = gr.Markdown(label="Jawaban")
+        question_input = gr.Textbox(label="Pertanyaan", placeholder="Contoh: Siapa sutradara film Titanic?", scale=4)
+        ask_button = gr.Button("Tanyakan", scale=1)
+    
+    with gr.Row():
+        with gr.Column(scale=1):
+            best_answer_output = gr.Markdown(label="Jawaban Terbaik")
+        with gr.Column(scale=1):
+            all_results_output = gr.Markdown(label="Semua Hasil Pencarian")
+    
     reset_button = gr.Button("🔄 Reset")
-    ask_button.click(chatbot_response, inputs=question_input, outputs=answer_output)
-    reset_button.click(lambda: ("", ""), None, [question_input, answer_output])
+    
+    ask_button.click(chatbot_response, inputs=question_input, outputs=[best_answer_output, all_results_output])
+    reset_button.click(lambda: ("", "", ""), None, [question_input, best_answer_output, all_results_output])
 
 demo.launch(share=True)
 

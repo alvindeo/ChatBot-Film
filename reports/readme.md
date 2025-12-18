@@ -2,6 +2,14 @@
 
 Sistem chatbot untuk pencarian informasi film menggunakan metode Boolean IR dan VSM (Vector Space Model).
 
+## Demo Video
+
+[![Penjelasan Chatbot Film]](https://www.youtube.com/watch?v=FOXx3XZufcI)
+
+[![Demo Chatbot Film]](https://www.youtube.com/watch?v=ZnGnMgihnhw)
+
+Klik gambar di atas untuk melihat demo video, atau [klik disini](https://www.youtube.com/watch?v=FOXx3XZufcI)
+
 ## Struktur Proyek
 
 ```
