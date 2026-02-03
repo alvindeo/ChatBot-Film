@@ -1,0 +1,4 @@
+Method,Macro F1,Accuracy
+Lexicon-based,0.6680603948896632,0.7777777777777778
+Naive Bayes,1.0,1.0
+K-NN,1.0,1.0

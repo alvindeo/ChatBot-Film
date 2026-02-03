@@ -1,0 +1,56 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# NLTK Data (bisa didownload ulang)
+nltk_data/
+
+# Environment variables
+.env
+.env.local
+
+# Gradio temporary files
+.gradio/
+flagged/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Models (jika terlalu besar, bisa di-uncomment)
+# models/*.pkl
+# models/*.joblib
+# models/*.h5
+
+# Large datasets (jika terlalu besar)
+# dataset/*.csv
+# dataset/*.json
+
+# Reports and outputs
+# reports/
+# *.csv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/

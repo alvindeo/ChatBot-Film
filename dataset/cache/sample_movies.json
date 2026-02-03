@@ -1,0 +1,211 @@
+[
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "genre": "Drama",
+    "rating": 9.3,
+    "overview": "Dua pria yang dipenjara menjalin ikatan selama bertahun-tahun, menemukan penghiburan dan penebusan melalui tindakan kebaikan bersama.",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
+    "genre": "Crime, Drama",
+    "rating": 9.2,
+    "overview": "Kisah tentang keluarga mafia Corleone dan bagaimana putra bungsu yang enggan mengambil alih bisnis keluarga.",
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "director": "Christopher Nolan",
+    "genre": "Action, Crime, Drama",
+    "rating": 9.0,
+    "overview": "Batman menghadapi musuh terbesarnya, Joker, yang menciptakan kekacauan di Gotham City.",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "genre": "Action, Sci-Fi, Thriller",
+    "rating": 8.8,
+    "overview": "Seorang pencuri yang mencuri rahasia perusahaan melalui teknologi berbagi mimpi diberi tugas terbalik: menanamkan ide ke dalam pikiran CEO.",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Ellen Page"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "genre": "Crime, Drama",
+    "rating": 8.9,
+    "overview": "Kehidupan dua pembunuh bayaran, seorang petinju, istri gangster, dan sepasang perampok restoran saling terkait dalam empat cerita kekerasan dan penebusan.",
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "director": "Robert Zemeckis",
+    "genre": "Drama, Romance",
+    "rating": 8.8,
+    "overview": "Kisah hidup Forrest Gump, seorang pria dengan IQ rendah yang tanpa disadari menjadi saksi dan berpengaruh pada beberapa peristiwa penting abad ke-20.",
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "director": "Christopher Nolan",
+    "genre": "Adventure, Drama, Sci-Fi",
+    "rating": 8.6,
+    "overview": "Tim penjelajah menggunakan lubang cacing yang baru ditemukan untuk melampaui batas perjalanan ruang angkasa manusia dan menaklukkan jarak luas yang terlibat dalam perjalanan antarbintang.",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "director": "Bong Joon-ho",
+    "genre": "Comedy, Drama, Thriller",
+    "rating": 8.6,
+    "overview": "Keserakahan dan diskriminasi kelas mengancam hubungan simbiosis baru antara keluarga kaya Park dan klan Kim yang miskin.",
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "genre": "Action, Sci-Fi",
+    "rating": 8.7,
+    "overview": "Seorang hacker komputer belajar dari pemberontak misterius tentang sifat sebenarnya dari realitasnya dan perannya dalam perang melawan pengontrolnya.",
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "director": "Anthony Russo, Joe Russo",
+    "genre": "Action, Adventure, Sci-Fi",
+    "rating": 8.4,
+    "overview": "Setelah peristiwa Infinity War, Avengers berkumpul sekali lagi untuk membalikkan tindakan Thanos dan mengembalikan keseimbangan alam semesta.",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Scarlett Johansson"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Pengabdi Setan 2: Communion",
+    "year": 2022,
+    "director": "Joko Anwar",
+    "genre": "Horror, Mystery",
+    "rating": 6.7,
+    "overview": "Keluarga yang dikejar oleh roh jahat pindah ke apartemen di Jakarta, tapi teror tidak berhenti di sana.",
+    "cast": [
+      "Tara Basro",
+      "Bront Palarae",
+      "Endy Arfian"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Laskar Pelangi",
+    "year": 2008,
+    "director": "Riri Riza",
+    "genre": "Drama, Family",
+    "rating": 7.9,
+    "overview": "Kisah inspiratif tentang 10 anak dari keluarga miskin di Belitung yang berjuang untuk mendapatkan pendidikan.",
+    "cast": [
+      "Cut Mini",
+      "Ikranagara",
+      "Tora Sudiro"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Dilan 1990",
+    "year": 2018,
+    "director": "Fajar Bustomi",
+    "genre": "Drama, Romance",
+    "rating": 7.5,
+    "overview": "Kisah cinta antara Milea dan Dilan, seorang siswa SMA yang romantis dan pemberani di Bandung tahun 1990.",
+    "cast": [
+      "Iqbaal Ramadhan",
+      "Vanesha Prescilla",
+      "Sissy Priscillia"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Gundala",
+    "year": 2019,
+    "director": "Joko Anwar",
+    "genre": "Action, Adventure, Sci-Fi",
+    "rating": 6.1,
+    "overview": "Sancaka hidup di jalanan Jakarta. Suatu hari, ia mengembangkan kekuatan luar biasa dan harus menghadapi kejahatan yang mengancam kota.",
+    "cast": [
+      "Abimana Aryasatya",
+      "Tara Basro",
+      "Bront Palarae"
+    ],
+    "source": "sample"
+  },
+  {
+    "title": "Habibie & Ainun",
+    "year": 2012,
+    "director": "Faozan Rizal",
+    "genre": "Biography, Drama, Romance",
+    "rating": 7.6,
+    "overview": "Kisah cinta sejati antara B.J. Habibie dan istrinya Hasri Ainun Habibie.",
+    "cast": [
+      "Reza Rahadian",
+      "Bunga Citra Lestari",
+      "Tio Pakusadewo"
+    ],
+    "source": "sample"
+  }
+]
