@@ -25,4 +25,5 @@ print("🚀 Starting Chatbot Application...")
 from search_engine import chatbot, demo
 
 if __name__ == "__main__":
-    demo.launch(share=True)
+    # Removed share=True to prevent hanging
+    demo.launch()

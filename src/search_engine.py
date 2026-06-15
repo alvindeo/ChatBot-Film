@@ -362,7 +362,7 @@ llm_info = chatbot.llm_manager.get_provider_info() if chatbot.llm_manager else {
 intent_status = "✅ Active (KNN)" if chatbot.use_intent else "❌ Disabled"
 llm_status = f"✅ Active ({llm_info['provider']})" if llm_info['status'] == 'active' else "❌ Disabled"
 
-with gr.Blocks(title="Chatbot Film - Enhanced", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Chatbot Film - Enhanced") as demo:
     gr.Markdown("""
     # 🎬 Chatbot Film - Enhanced Edition
     
@@ -410,7 +410,9 @@ with gr.Blocks(title="Chatbot Film - Enhanced", theme=gr.themes.Soft()) as demo:
     question_input.submit(chatbot_response, inputs=question_input, outputs=[best_answer_output, all_results_output])
     reset_button.click(lambda: ("", "", ""), None, [question_input, best_answer_output, all_results_output])
 
-demo.launch(share=True)
+if __name__ == "__main__":
+    # Removed share=True to prevent hanging, added theme here per Gradio 6.0 warning
+    demo.launch(theme=gr.themes.Soft())
 
 
 # --- Pengujian manual ---
